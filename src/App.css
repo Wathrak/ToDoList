@@ -1,0 +1,58 @@
+body {
+  background-color: white;
+}
+
+.App {
+  text-align: center;
+  padding: 20px 20px 0 20px;
+  font-family: 'Arial', sans-serif;
+  background-color: #f0f4f8;
+}
+
+.todo-list {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 10px;
+  background-color: #f0f4f8;
+  border-radius: 8px;
+}
+
+input, button {
+  width: 20vw;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+button:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.todo-item {
+  padding: 10px;
+  border-bottom: 1px solid white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.todo-item:last-child {
+  border-bottom: none;
+}
+
+.search-input {
+  width: 20%;
+  margin: 10px 0 10px 0;
+  text-align: center;
+}
+
+.search-input::placeholder {
+  text-align: center;
+  color: gray;
+}
+
+.input-field {
+  text-align: center;
+  color: gray;
+}
